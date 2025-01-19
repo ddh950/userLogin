@@ -1,0 +1,39 @@
+body {
+    background-color: #cecece;
+    color: #4e5255;
+    font: 1em "Open Sans", sans-serif;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 10px auto;
+    height: 100%;
+    max-width: 1280px;
+}
+
+#container > div {
+    width: 100%;
+    padding: 20px;
+}
+
+#header {
+    background-color: #030303;
+    color: #ececec;
+}
+
+#main {
+    background-color: #fff;
+    min-height: 80%;
+}
+
+#footer {
+    background-color: #909090;
+}
+
+#footer a {
+    text-decoration: none;
+}
